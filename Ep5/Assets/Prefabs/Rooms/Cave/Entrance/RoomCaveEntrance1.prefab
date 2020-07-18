@@ -1,0 +1,2086 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &96999144450457098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 96999144450457096}
+  - component: {fileID: 96999144450457099}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &96999144450457096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96999144450457098}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: -9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &96999144450457099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96999144450457098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &261600747515443609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261600747515443610}
+  m_Layer: 0
+  m_Name: RoomCaveEntrance1
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &261600747515443610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261600747515443609}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6598660649883670923}
+  - {fileID: 4055523838479397246}
+  - {fileID: 2756100177133295718}
+  - {fileID: 96999144450457096}
+  - {fileID: 3018701397418477750}
+  - {fileID: 6273085946328161104}
+  - {fileID: 6288224199306409496}
+  - {fileID: 2971757088540865238}
+  - {fileID: 1042577020316551375}
+  - {fileID: 4254890980923869201}
+  - {fileID: 4361467652021454718}
+  - {fileID: 2657879877524248910}
+  - {fileID: 7587342751748962497}
+  - {fileID: 8964341024547857448}
+  - {fileID: 6302055568129618512}
+  - {fileID: 5334620312129378252}
+  - {fileID: 6799991677492559335}
+  - {fileID: 6620333114960093386}
+  - {fileID: 4038522552433953943}
+  - {fileID: 6865591721238670448}
+  - {fileID: 3385487564323937749}
+  - {fileID: 402511449095528320}
+  - {fileID: 8675546804141580703}
+  - {fileID: 1043048803261514021}
+  - {fileID: 2506854588326201409}
+  - {fileID: 6149017777961340120}
+  - {fileID: 2969206347427663423}
+  - {fileID: 3827914623583321039}
+  - {fileID: 7750537691541152102}
+  - {fileID: 7120000294730362487}
+  - {fileID: 3343029990229087298}
+  - {fileID: 7146537644483740132}
+  - {fileID: 4089948885227861588}
+  - {fileID: 8998530557340144079}
+  - {fileID: 9193800433288335569}
+  - {fileID: 4222424485321353326}
+  - {fileID: 1847138266247956224}
+  - {fileID: 5897800237224727178}
+  - {fileID: 5897800237539014136}
+  - {fileID: 5897800236280391886}
+  - {fileID: 5897800237747886045}
+  - {fileID: 5897800236616596701}
+  - {fileID: 5897800235933728820}
+  - {fileID: 4093253398752822073}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &402511449095528322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 402511449095528320}
+  - component: {fileID: 402511449095528323}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &402511449095528320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402511449095528322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &402511449095528323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402511449095528322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &1042577020316551373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1042577020316551375}
+  - component: {fileID: 1042577020316551372}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1042577020316551375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042577020316551373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8, y: -9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1042577020316551372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042577020316551373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &1043048803261514023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1043048803261514021}
+  - component: {fileID: 1043048803261514022}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (23)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1043048803261514021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043048803261514023}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1043048803261514022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043048803261514023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &1847138266247956226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1847138266247956224}
+  - component: {fileID: 1847138266247956227}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (43)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1847138266247956224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847138266247956226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1847138266247956227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847138266247956226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &2506854588326201411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2506854588326201409}
+  - component: {fileID: 2506854588326201410}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (24)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2506854588326201409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506854588326201411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2506854588326201410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506854588326201411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &2657879877524248908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2657879877524248910}
+  - component: {fileID: 2657879877524248909}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2657879877524248910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2657879877524248908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: -7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2657879877524248909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2657879877524248908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &2756100177133295716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2756100177133295718}
+  - component: {fileID: 2756100177133295717}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2756100177133295718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2756100177133295716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: -9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2756100177133295717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2756100177133295716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &2969206347427663421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2969206347427663423}
+  - component: {fileID: 2969206347427663420}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (26)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2969206347427663423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2969206347427663421}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2969206347427663420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2969206347427663421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &2971757088540865236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2971757088540865238}
+  - component: {fileID: 2971757088540865237}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2971757088540865238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2971757088540865236}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7, y: -9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2971757088540865237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2971757088540865236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &3018701397418477748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3018701397418477750}
+  - component: {fileID: 3018701397418477749}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3018701397418477750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3018701397418477748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: -9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3018701397418477749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3018701397418477748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &3343029990229087296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3343029990229087298}
+  - component: {fileID: 3343029990229087297}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (31)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3343029990229087298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3343029990229087296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3343029990229087297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3343029990229087296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &3385487564323937751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3385487564323937749}
+  - component: {fileID: 3385487564323937750}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3385487564323937749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3385487564323937751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3385487564323937750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3385487564323937751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &3827914623583321037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3827914623583321039}
+  - component: {fileID: 3827914623583321036}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (27)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3827914623583321039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3827914623583321037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3827914623583321036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3827914623583321037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &4038522552433953941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4038522552433953943}
+  - component: {fileID: 4038522552433953940}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4038522552433953943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4038522552433953941}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4038522552433953940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4038522552433953941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &4055523838479397244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4055523838479397246}
+  - component: {fileID: 4055523838479397245}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4055523838479397246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055523838479397244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: -9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4055523838479397245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055523838479397244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &4089948885227861590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4089948885227861588}
+  - component: {fileID: 4089948885227861591}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (37)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4089948885227861588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4089948885227861590}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4089948885227861591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4089948885227861590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &4222424485321353324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4222424485321353326}
+  - component: {fileID: 4222424485321353325}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (40)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4222424485321353326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4222424485321353324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4222424485321353325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4222424485321353324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &4254890980923869203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4254890980923869201}
+  - component: {fileID: 4254890980923869202}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4254890980923869201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4254890980923869203}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9, y: -9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4254890980923869202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4254890980923869203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &4361467652021454716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4361467652021454718}
+  - component: {fileID: 4361467652021454717}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4361467652021454718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4361467652021454716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: -8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4361467652021454717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4361467652021454716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &5334620312129378254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5334620312129378252}
+  - component: {fileID: 5334620312129378255}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5334620312129378252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5334620312129378254}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7, y: -7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5334620312129378255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5334620312129378254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &5897800235933728821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5897800235933728820}
+  - component: {fileID: 5897800235933728827}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (48)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5897800235933728820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897800235933728821}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: -8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 42
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5897800235933728827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897800235933728821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &5897800236280391887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5897800236280391886}
+  - component: {fileID: 5897800236280391885}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (45)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5897800236280391886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897800236280391887}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: -7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5897800236280391885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897800236280391887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &5897800236616596702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5897800236616596701}
+  - component: {fileID: 5897800236616596700}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (47)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5897800236616596701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897800236616596702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: -8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 41
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5897800236616596700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897800236616596702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &5897800237224727179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5897800237224727178}
+  - component: {fileID: 5897800237224727177}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (29)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5897800237224727178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897800237224727179}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6, y: -7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5897800237224727177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897800237224727179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &5897800237539014137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5897800237539014136}
+  - component: {fileID: 5897800237539014143}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (44)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5897800237539014136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897800237539014137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: -7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5897800237539014143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897800237539014137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &5897800237747886046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5897800237747886045}
+  - component: {fileID: 5897800237747886044}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (46)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5897800237747886045
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897800237747886046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: -7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5897800237747886044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897800237747886046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &6149017777961340122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6149017777961340120}
+  - component: {fileID: 6149017777961340123}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (25)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6149017777961340120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6149017777961340122}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6149017777961340123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6149017777961340122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &6273085946328161106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6273085946328161104}
+  - component: {fileID: 6273085946328161107}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6273085946328161104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6273085946328161106}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: -9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6273085946328161107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6273085946328161106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &6288224199306409498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6288224199306409496}
+  - component: {fileID: 6288224199306409499}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6288224199306409496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6288224199306409498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6, y: -9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6288224199306409499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6288224199306409498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &6302055568129618514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6302055568129618512}
+  - component: {fileID: 6302055568129618515}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6302055568129618512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302055568129618514}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7, y: -8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6302055568129618515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302055568129618514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &6598660649883670921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6598660649883670923}
+  - component: {fileID: 6598660649883670920}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6598660649883670923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6598660649883670921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6598660649883670920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6598660649883670921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &6620333114960093384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6620333114960093386}
+  - component: {fileID: 6620333114960093385}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6620333114960093386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6620333114960093384}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: -8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6620333114960093385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6620333114960093384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &6799991677492559333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6799991677492559335}
+  - component: {fileID: 6799991677492559332}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6799991677492559335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6799991677492559333}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8, y: -8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6799991677492559332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6799991677492559333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &6865591721238670450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6865591721238670448}
+  - component: {fileID: 6865591721238670451}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6865591721238670448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6865591721238670450}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6865591721238670451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6865591721238670450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &7120000294730362485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7120000294730362487}
+  - component: {fileID: 7120000294730362484}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (30)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7120000294730362487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7120000294730362485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7120000294730362484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7120000294730362485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &7146537644483740134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7146537644483740132}
+  - component: {fileID: 7146537644483740135}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (34)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7146537644483740132
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7146537644483740134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7146537644483740135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7146537644483740134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &7587342751748962499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7587342751748962497}
+  - component: {fileID: 7587342751748962498}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7587342751748962497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7587342751748962499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: -8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7587342751748962498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7587342751748962499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &7750537691541152100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7750537691541152102}
+  - component: {fileID: 7750537691541152101}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (28)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7750537691541152102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7750537691541152100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7750537691541152101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7750537691541152100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &8675546804141580701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8675546804141580703}
+  - component: {fileID: 8675546804141580700}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (22)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8675546804141580703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8675546804141580701}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8675546804141580700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8675546804141580701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &8964341024547857450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8964341024547857448}
+  - component: {fileID: 8964341024547857451}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8964341024547857448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8964341024547857450}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6, y: -8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8964341024547857451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8964341024547857450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &8998530557340144077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8998530557340144079}
+  - component: {fileID: 8998530557340144076}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (38)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8998530557340144079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8998530557340144077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8998530557340144076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8998530557340144077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1 &9193800433288335571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9193800433288335569}
+  - component: {fileID: 9193800433288335570}
+  m_Layer: 0
+  m_Name: SpawnCaveBasic (39)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 041a3377d9f3bde4a88c562d26d48a64, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9193800433288335569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9193800433288335571}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 261600747515443610}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9193800433288335570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9193800433288335571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4068f8ef4fe6124481aeb1d38e9ed43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSpawns:
+  - {fileID: 8516756977980840387, guid: 1a793942687c8cc4d8426ff4fd84dbe4, type: 3}
+--- !u!1001 &5897800236028988887
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 261600747515443610}
+    m_Modifications:
+    - target: {fileID: 7572550256742338284, guid: a971242f8f978b343beea6515c8bd41a,
+        type: 3}
+      propertyPath: m_Name
+      value: EntranceDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572550256742338286, guid: a971242f8f978b343beea6515c8bd41a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572550256742338286, guid: a971242f8f978b343beea6515c8bd41a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572550256742338286, guid: a971242f8f978b343beea6515c8bd41a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572550256742338286, guid: a971242f8f978b343beea6515c8bd41a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572550256742338286, guid: a971242f8f978b343beea6515c8bd41a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572550256742338286, guid: a971242f8f978b343beea6515c8bd41a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572550256742338286, guid: a971242f8f978b343beea6515c8bd41a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572550256742338286, guid: a971242f8f978b343beea6515c8bd41a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572550256742338286, guid: a971242f8f978b343beea6515c8bd41a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572550256742338286, guid: a971242f8f978b343beea6515c8bd41a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572550256742338286, guid: a971242f8f978b343beea6515c8bd41a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a971242f8f978b343beea6515c8bd41a, type: 3}
+--- !u!4 &4093253398752822073 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7572550256742338286, guid: a971242f8f978b343beea6515c8bd41a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5897800236028988887}
+  m_PrefabAsset: {fileID: 0}
